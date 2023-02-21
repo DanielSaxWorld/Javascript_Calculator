@@ -5,9 +5,9 @@ buttons.forEach((btn) => {
     btn.addEventListener("click", () => {
         if (btn.id === "=") {
             display.value = eval(display.value);
-        } elseif (btn.id === "ac") {
+        } else if (btn.id === "ac") {
             display.value === "";
-        } elseif (btn.id == "de") {
+        } else if (btn.id == "de") {
             display.value = display.value.slice(0, -1);
         } else {
             display.value += btn.id;
